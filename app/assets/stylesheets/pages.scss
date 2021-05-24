@@ -1,0 +1,24 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 { 
+ font-size: 65px;
+}
+
+#question { 
+  width: 75%;
+  height: 50px;
+  border-radius: 15px;
+  opacity: 85%;
+}
+
+#ask { 
+    height: 45px;
+    width: 70px;
+    border-radius: 15px;
+    background-color: rgb(71, 135, 218);
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
