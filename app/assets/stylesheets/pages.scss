@@ -3,22 +3,41 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 h1 { 
- font-size: 65px;
+ font-size: 45px;
 }
 
-#question { 
+h3 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+input[type=text] {
   width: 75%;
   height: 50px;
   border-radius: 15px;
-  opacity: 85%;
 }
 
-#ask { 
-    height: 45px;
-    width: 70px;
-    border-radius: 15px;
-    background-color: rgb(71, 135, 218);
-    font-weight: bold;
-    color: white;
-    font-size: 30px;
+input[type=submit] {
+  height: 45px;
+  width: 80px;
+  border-radius: 15px;
+  background-color: rgb(71, 135, 218);
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  &:hover { 
+    cursor: pointer;
+  }
+}
+
+.give-answer {
+  width: 30%;
+  background-color: rgb(245, 245, 205);
+  border-left:rgb(88, 88, 86) 5px solid;
+  padding-left: 10px;
+}
+
+.ask-question { 
+  border-left:rgb(88, 88, 86) 5px solid;
+  padding-left: 10px;
 }
